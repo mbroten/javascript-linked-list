@@ -1,1 +1,7 @@
 A basic implementation of a singly linked list in JavaScript.
+
+Limitations:
+
+The search function assumes each node has a simple value (string, number, boolean, null, or undefined). It is not able to find nodes with an obect for a key. 
+
+The search function will return the first matching node in cases when multiple nodes have the same key. 
